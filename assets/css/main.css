@@ -71,7 +71,21 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
+.features .avatar{
+  display:inline-block;
+  width:64px;
+  height:64px;
+  border-radius:50%;
+  overflow:hidden;
+  margin-bottom:0.75rem;
+}
 
+.features .avatar img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+}
 /* Basic */
 
 	@-ms-viewport {
