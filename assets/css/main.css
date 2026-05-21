@@ -87,24 +87,40 @@ input, select, textarea {
   display:block;
 }
 
-/* Committee lists styling */
-.features .committee-card h3{
-  margin-bottom: 0.75rem;
+/* Big committee panels (lists, not grid) */
+.committee-stack{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
 }
 
-.features .committee-list{
+.committee-panel{
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.14);
+}
+
+.committee-header h3{
+  margin: 0 0 1rem 0;
+}
+
+.committee-list{
   list-style: none;
   padding-left: 0;
   margin: 0;
 }
 
-.features .committee-list li{
-  padding: 0.5rem 0;
-  border-top: 1px solid rgba(255,255,255,0.15);
+.committee-list li{
+  padding: 0.75rem 0;
+  border-top: 1px solid rgba(255,255,255,0.14);
 }
 
-.features .committee-list li:first-child{
+.committee-list li:first-child{
   border-top: 0;
+}
+
 }
 /* Basic */
 
