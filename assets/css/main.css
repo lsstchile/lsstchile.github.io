@@ -45,7 +45,11 @@ blockquote, q {
 		content: '';
 		content: none;
 	}
-
+@media screen and (min-width: 980px){
+  .features section.right-line{
+    border-right: 1px solid rgba(255,255,255,0.14);
+  }
+}
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
