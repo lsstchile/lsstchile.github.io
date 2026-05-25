@@ -120,6 +120,13 @@ input, select, textarea {
 .committee-list li:first-child{
   border-top: 0;
 }
+
+/* Add a bottom divider to a specific member card */
+.features section.force-bottom-line {
+  border-bottom: 1px solid rgba(255,255,255,0.14);
+  padding-bottom: 2rem; /* opcional, para que no quede pegado */
+}
+
 /* Links of Interest */
 .link-cards{
   display: grid;
