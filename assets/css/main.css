@@ -101,6 +101,37 @@ input, select, textarea {
 }
 
 /* Big committee panels (lists, not grid) */
+
+/* Committee grouped layout */
+.committee-group {
+  margin-top: 2.5rem;
+}
+
+.committee-group-title {
+  margin-bottom: 1rem;
+  opacity: 0.95;
+}
+
+.committee-features.one,
+.committee-features.two {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.committee-features.one {
+  grid-template-columns: 1fr;
+  max-width: 520px;
+}
+
+.committee-features.two {
+  grid-template-columns: 1fr;
+}
+
+@media screen and (min-width: 980px) {
+  .committee-features.two {
+    grid-template-columns: 1fr 1fr;
+  }
+}
 .committee-stack{
   display: grid;
   grid-template-columns: 1fr;
