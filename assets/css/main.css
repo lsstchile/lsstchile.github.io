@@ -138,6 +138,24 @@ input, select, textarea {
   }
 
 /* LSST Chile National Committee: 3 + 2 balanced layout */
+
+	/* Committee member photos: same size */
+.committee-five-grid .avatar {
+  display: inline-block;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.committee-five-grid .avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
 .committee-five-grid {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
