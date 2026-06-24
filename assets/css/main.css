@@ -142,8 +142,8 @@ input, select, textarea {
 	/* Committee member photos: same size */
 .committee-five-grid .avatar {
   display: inline-block;
-  width: 110px;
-  height: 110px;
+  width: 130px;
+  height: 130px;
   border-radius: 50%;
   overflow: hidden;
   margin-bottom: 1rem;
