@@ -200,7 +200,10 @@ input, select, textarea {
     grid-column: auto;
   }
 }
-
+.wrapper .inner p,
+.wrapper .inner li {
+    font-size: 1.2em;
+}
 /* Mobile: 1 column */
 @media screen and (max-width: 736px) {
   .committee-five-grid {
